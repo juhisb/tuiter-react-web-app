@@ -1,0 +1,9 @@
+body {
+    background: black;
+    padding: 16px;
+    font-family: Verdana;
+}
+.wd-border {
+    padding: 12px 16px;
+    border: 1px solid rgb(47, 51, 54);
+}

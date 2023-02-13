@@ -1,0 +1,80 @@
+p {
+    margin: 0px;
+}
+.wd-bookmark {
+    max-width: 566px
+}
+.wd-title{
+    color: white;
+    font-size: 20px;
+}
+.wd-user {
+    color: #cccccc;
+    font-size: 13px;
+}
+.wd-name {
+    font-size: 15px;
+    color: white;
+}
+.wd-tag {
+    font-size: 15px;
+    color: #cccccc;
+}
+.wd-grid-row {
+    clear: both;
+    overflow: auto;
+}
+.wd-grid-img {
+    width: 48px;
+    float: left;
+}
+.wd-grid-txt {
+    float: left;
+    max-width: calc(100% - 60px);
+    margin-left: 12px;
+}
+.wd-dp {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.wd-grid-main-txt {
+    max-width: 506px;
+}
+.wd-content {
+    margin-top: 5px;
+}
+.wd-banner {
+    margin-top: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 15px;
+}
+.wd-banner-txt {
+    padding: 12px;
+    max-width: 480px;
+}
+.wd-main-img {
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: 1px solid #cccccc;
+}
+.wd-ops {
+    margin-top: 12px;
+    max-width: 506px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-ops > .wd-icon {
+    color: #cccccc;
+    text-decoration: none;
+}
+.wd-ops > a > span {
+    margin-left: 12px;
+}
+.wd-heart {
+    color: red;
+    text-decoration: none;
+}
