@@ -1,0 +1,58 @@
+.wd-more {
+    width: 18px !important;
+}
+.wd-more-circle {
+    font-size: large;
+}
+.wd-more-ellipsis {
+    font-size: small;
+}
+.wd-follow {
+    border-radius: 20px;
+}
+.wd-follow-img {
+    height: 55px;
+    width: 55px;
+}
+.wd-search {
+    border-top-left-radius: 0!important;
+    border-bottom-left-radius: 0!important;
+}
+.wd-text {
+    bottom: 8px;
+    left: 16px;
+}
+.wd-content-img {
+    height: 70px;
+    width: 70px;
+}
+.wd-active {
+    border-bottom: 5px solid rgb(29, 161, 242);
+}
+.wd-settings{
+    font-size: x-large;
+}
+.wd-text-primary {
+    color: rgb(29, 161, 242);
+}
+.wd-button-primary {
+    background: rgb(29, 161, 242);
+    color: white;
+}
+.fa-twitter {
+    font-size: x-large;
+}
+.wd-follow > .list-group-item {
+    border: none;
+}
+.wd-nav > .list-group-item {
+    border: none;
+    padding: 10px;
+    font-size: large;
+}
+.wd-explore-tuits {
+    border: 1px solid #f4f4f4;
+}
+.wd-explore-tuits > .list-group-item {
+    border: none;
+}
