@@ -6,3 +6,38 @@ body {
     padding: 12px 16px;
     border: 1px solid rgb(47, 51, 54);
 }
+.wd-more {
+    width: 18px !important;
+}
+.wd-more-circle {
+    font-size: large;
+}
+.wd-more-ellipsis {
+    font-size: small;
+}
+.wd-follow-img {
+    height: 40px;
+    width: 40px;
+}
+.wd-search {
+    border-top-left-radius: 0!important;
+    border-bottom-left-radius: 0!important;
+}
+.wd-text {
+    bottom: 8px;
+    left: 16px;
+}
+.wd-content-img {
+    height: 70px;
+    width: 70px;
+}
+
+.wd-settings{
+    font-size: x-large;
+}
+.wd-banner{
+    border-radius: 15px!important;
+}
+.wd-post {
+    background: none !important;
+}
