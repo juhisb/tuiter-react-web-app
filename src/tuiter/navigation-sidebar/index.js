@@ -25,7 +25,7 @@ const NavigationSidebar = () => {
 
             <a  className={`list-group-item list-group-item-action ${active === "lists" ? "active" : ""}`}><i className={`bi-list`}></i> <span className={`d-none d-xl-inline-block d-xxl-inline-block`}>Lists</span> </a>
 
-            <a  className={`list-group-item list-group-item-action ${active === "profile" ? "active" : ""}`}> <i className={`bi-person-fill`}></i> <span className={`d-none d-xl-inline-block d-xxl-inline-block`}>Profile</span> </a>
+       <Link to="/tuiter/profile"  className={`list-group-item list-group-item-action ${active === "profile" ? "active" : ""}`}> <i className={`bi-person-fill`}></i> <span className={`d-none d-xl-inline-block d-xxl-inline-block`}>Profile</span> </Link>
         <a  className={`list-group-item list-group-item-action ${active === "more" ? "active" : ""}`}>
             <span className={`fa-layers fa-fw fa-lg wd-more`}>
                 <FontAwesomeIcon icon ={faCircle} className={`fa-stack-1x wd-more-circle`}></FontAwesomeIcon>

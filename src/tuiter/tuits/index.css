@@ -1,0 +1,12 @@
+.wd-reaction-tab {
+    color: rgb(110, 118, 125);
+    text-decoration: none;
+}
+
+.wd-reaction-tab-selected {
+    color: red;
+}
+
+.wd-check-mark {
+    color: dodgerblue;
+}
