@@ -7,6 +7,10 @@
     color: red;
 }
 
+.wd-dislike-tab-selected {
+    color: blue;
+}
+
 .wd-check-mark {
     color: dodgerblue;
 }
