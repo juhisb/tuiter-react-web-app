@@ -20,7 +20,7 @@ const TuitItem = ({post}) => {
         <div className="col-sm-10">
             <i className="bi bi-x-lg float-end"
                onClick={() => deleteTuitHandler(post._id)}></i>
-            <p className="mb-0"><strong>{post.username}  </strong>  <i className="bi bi-patch-check-fill wd-check-mark"></i> <span className="text-secondary">{post.handle} - {post.time}</span> <i className="fa-solid fa-ellipsis float-end text-secondary"></i></p>
+            <p className="mb-0"><strong>{post.userName}  </strong>  <i className="bi bi-patch-check-fill wd-check-mark"></i> <span className="text-secondary">{post.handle} - {post.time}</span> <i className="fa-solid fa-ellipsis float-end text-secondary"></i></p>
         <p className="mb-1">{post.tuit}</p>
         {/*<div className="wd-author-tuit wd-border">*/}
         {/*    <span className="wd-author-avatar"><img src={`../images/${post.image}`} /></span>*/}

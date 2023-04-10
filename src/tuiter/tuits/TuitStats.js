@@ -16,7 +16,7 @@ const TuitStats = ({post}) => {
             <a href = "#" className="text-secondary text-decoration-none">
                 <i className="bi-repeat"></i> <span>{post.retweets}</span>
             </a>
-            <a className={`wd-reaction-tab ${post.liked === true ?'wd-reaction-tab-selected':''}`} href="#"
+            <a className={`wd-reaction-tab ${post.likes > 0 ?'wd-reaction-tab-selected':''}`} href="#"
                onClick={() => dispatch(updateTuitThunk({
                    ...post,
                    likes: post.likes + 1
